@@ -2,5 +2,8 @@
 let numbers = [100, 20, 3, 1000];
 let minNumber;
 // Start coding here
+//console.log(Math.min(...numbers))
 
+
+for (let a=0; a<numbers.length; a++ ) {minNumber=Math.min(a)}
 console.log(minNumber);
