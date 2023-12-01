@@ -2,3 +2,6 @@
 let companyName = "TechUp";
 
 // Start coding here
+for (let cha of companyName) {
+  console.log(`Number ${companyName.length + 1} character is ${cha}`);
+}
